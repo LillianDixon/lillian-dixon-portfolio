@@ -1,0 +1,114 @@
+@media screen and (max-width: 900px){
+    // @import "small-screen.scss";
+    .nav-wrapper{
+        display: block;
+
+        .nav-btn{
+            display: block;
+            padding-top: 30px;
+            padding-right: 80px;
+            float: right;
+
+            label{
+                cursor: pointer;
+                color: $darkKhaki;
+                
+                &:hover{
+                    text-decoration: underline $darkSlateGray;
+                    color: $darkSlateGray;
+                    transition: 0.5s;
+                    }
+
+                span{
+                    display: block;
+                    width: 25px;
+                    height: 10px;
+                    border-top: 2px solid;
+                }
+            }    
+
+
+        }
+
+        #toggle{
+            display: none;
+    
+            
+            
+            
+            &:checked{
+                
+                &+.nav-right{
+                    display: block;
+
+                    
+                }
+                
+            }
+        }
+
+        .nav-right{
+            display: none;
+            background: rgba(2, 2, 2, 0.8);
+        }
+    }
+
+    #home{
+        background-attachment: scroll;
+        background-position: center;
+        width: 100vw;
+    }
+    
+    #projects{
+        a{
+            grid-template-columns: 1fr; 
+        }
+    }
+    
+    #about{
+       background-position: center;
+       background-size: cover;
+    
+       .about-text{
+    
+            p{
+                padding: 40px;
+            }
+       }
+    }
+    
+    #contact{
+        background-attachment: scroll;
+        .contact-form{
+    
+            form{
+    
+                .form-elements{
+        
+                    label{
+                        text-align: center;
+                        font-size: 1.5rem;
+                        color: $darkSlateGray;
+                        font-family: $text;
+                        font-weight: 900;
+                    }
+        
+                    input, textarea{
+                        &::placeholder{
+                            color: transparent;
+                        }
+                    }
+        
+                }
+            }
+    
+            .links{
+                a{
+                    color: $white;
+                    text-shadow: 4px 4px $darkSlateGray;
+                }
+            }
+        }
+    }
+    
+}

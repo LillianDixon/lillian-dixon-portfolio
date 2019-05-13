@@ -1,0 +1,15 @@
+@import "./variables.scss";
+@import "./home.scss";
+@import "./nav.scss";
+@import "./about.scss";
+@import "./projects.scss";
+@import "./contact.scss";
+@import "./skills.scss";
+@import "./media-queries.scss";
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: $white;
+    overflow-x: hidden;
+}

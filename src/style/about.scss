@@ -1,0 +1,29 @@
+#about{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    height: 100vh;
+    box-shadow: inset 0px 0px 50px 50px rgba(0,0,0,0.9);
+
+    .about-text{
+        text-align: center;
+        grid-row: 2;
+        
+        h1{
+            font-family: $title;
+            color: $white;
+        }
+
+        p{
+            display: grid;
+            // grid-template-areas: ".  p  .";
+            // grid-template-columns: 1fr 1fr 1fr;
+            // grid-column: 2 / 4;
+            margin-right: 0;
+            font-family: $text;
+            color: $white;
+            padding: 0px 200px 10px 200px;
+        }
+    }
+}

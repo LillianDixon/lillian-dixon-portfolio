@@ -1,0 +1,95 @@
+#contact{
+    background-image: url('https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+    width: 100vw;
+    box-shadow: inset 0px 0px 50px 50px rgba(0,0,0,0.9);
+    background-attachment: fixed;
+
+    display: grid;
+    justify-content: space-around;
+    align-content: space-around;
+
+    .contact-form{
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+
+        H1{
+            font-family: $title;
+            text-align: center;
+            padding-bottom: 20px;
+            color: $peru;
+            text-shadow: 4px 4px $darkSlateGray;
+
+        }
+
+        form{
+            // align-content: center;
+
+            .form-elements{
+                display: grid;
+                justify-content: center;
+                padding: 10px;
+                // padding-right: 130px;
+    
+                label{
+                    color: transparent;
+                }
+    
+                input, textarea{
+                    width: 100%;
+                    padding: 10px;
+                    border: 5px solid $dimGray;
+                    border-radius: 10px;
+                    background-color: rgba(0,0,0,0.5);
+                    color: white;
+                    font-family: $text;
+
+                    &::placeholder{
+                        text-align: center;
+                        font-size: 1.5rem;
+                        color: $peru;
+                        font-family: $text;
+                    }
+                }
+    
+            }
+        }
+
+        .btn{
+            width:100px;
+            background-color: $darkSlateGray;
+            color: $peru;
+            margin-top: 20px;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        
+            
+        }
+
+        .links{
+            padding-top: 50px;
+
+            a{
+                font-family: $title;
+                text-decoration: none;
+                color: $darkSlateGray;
+                font-size: 1.5em;
+                margin-top: 20px;
+                padding: 50px;
+                font-weight: 900;
+                margin: 0;
+                &:hover{
+                    text-decoration: underline $dimGray;
+                    color: $dimGray;
+                    transition: 0.5s;
+
+                }
+            }
+        }
+    }
+}
