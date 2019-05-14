@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import JoanneHallArt from '../../../static/assets/images/joanneHallArt.png';
 import DevFries from '../../../static/assets/images/dev-fries.png';
 import Pong from '../../../static/assets/images/pong.png';
-import BookIndex from '../../../static/assets/images/BookIndex.png';
+import BookIndex from '../../../static/assets/images/bookIndex.png';
 
 export default function(){
     return(
