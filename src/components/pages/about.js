@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 let images = [
-    'https://s2.gifyu.com/images/DancingWees.gif',
+    // 'https://s2.gifyu.com/images/DancingWees.gif',
 ];
 
 let randomImage = images[Math.floor(Math.random() * images.length)]

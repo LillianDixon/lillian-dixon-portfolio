@@ -20,19 +20,19 @@ export default function(){
             
             <div className="nav-right">
                 <div className="link">
-                    <a href="#home">Home</a>
+                    <a href="/">Home</a>
                 </div>
                 <div className="link">
-                    <a href="#projects">Projects</a>
+                    <a href="/projects">Projects</a>
                 </div>
                 <div className="link">
-                    <a href="#about">About</a>
+                    <a href="/about">About</a>
                 </div>
                 <div className="link">
-                    <a href="#skills">Skills</a>
+                    <a href="/skills">Skills</a>
                 </div>
                 <div className="link">
-                    <a href="#contact">Contact</a>
+                    <a href="/contact">Contact</a>
                 </div>
 
 

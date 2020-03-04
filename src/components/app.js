@@ -18,20 +18,20 @@ export default class App extends Component {
             <Nav />
 
             <Switch>
-              <Route exact path="/" />
-              <Route path="/about" />
-              <Route path="/projects" />
-              <Route path="/contact" />
-              <Route path="/skills" />
+              <Route exact path="/"  component={Home}/>
+              <Route path="/about" component={About}/>
+              <Route path="/projects" component={Projects}/>
+              <Route path="/contact" component={Contact}/>
+              <Route path="/skills" component={Skills}/>
             </Switch>
           </div>
         </Router>
 
-        <Home />
-        <Projects />
+        {/* <Home />
+        <Projects /> 
         <About />
         <Skills />
-        <Contact />
+        <Contact /> */}
 
 
 
