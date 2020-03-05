@@ -6,7 +6,6 @@ import logo from "../../static/assets/images/logo.svg"
 export default function(){
     return(
         <div className="nav-wrapper">
-            <img src={logo} className= "logo"></img>
 
             <div className="nav-btn">
                 <label htmlFor="toggle">
