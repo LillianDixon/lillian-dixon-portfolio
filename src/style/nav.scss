@@ -1,7 +1,7 @@
 .nav-wrapper{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    background: rgba(2, 2, 2, 0.5);
+    // background: rgba(2, 2, 2, 0.5);
     position: fixed;
     top: 0;
     width: 100vw;
@@ -33,6 +33,7 @@
 
         .link{
             padding-top: 40px;
+            // position: absolute;
 
             a{    
             display: grid;
@@ -40,15 +41,16 @@
             justify-content: center;
             padding: 0px 20px;
             text-decoration: none;
-            color: $darkKhaki;
+            color: $purple;
             font-family: $title;
+            letter-spacing: 2px;
             text-transform: uppercase;
             font-weight: 900;
 
             
             &:hover{
-                text-decoration: underline $darkSlateGray;
-                color: $darkSlateGray;
+                color: $white;
+                letter-spacing: 5px;
                 transition: 0.5s;
                 }
             }
