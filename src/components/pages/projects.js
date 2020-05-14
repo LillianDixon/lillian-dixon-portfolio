@@ -7,8 +7,9 @@ import BookIndex from '../../../static/assets/images/bookIndex.png';
 export default function(){
     return(
         <div id="projects">
-            <h1 >Projects</h1>
-            <hr />
+            <div className="heading">
+                <h1 >Projects</h1>
+            </div>
             <div className="project-items">
                 <a href='https://joanne-hall-art.herokuapp.com/' >
                     {/* <div className="link-items"> */}
@@ -37,7 +38,7 @@ export default function(){
                     </div>
                     <div className="text-wrapper">
                         <h2>DevCamp Fries</h2>
-                        <p>A group collaboration of a mock-up restaurant.  This site was created in HTML and CSS implementing skills such as Flexbox and Grid.</p>
+                        <p>A group collaboration of a mock-up restaurant.  This site was created in HTML and CSS implementing experience such as Flexbox and Grid.</p>
                     </div>
                 </a>
                 <a href='https://javascript-pong-game.herokuapp.com/' >

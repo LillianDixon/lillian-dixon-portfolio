@@ -10,10 +10,13 @@ import react from "../../../static/assets/images/react.png";
 import angular from "../../../static/assets/images/angular.png";
 
 
-export default class Skills extends Component {
+export default class experience extends Component {
     render() {
         return (
-            <div id="skills">
+            <div id="experience">
+                <div className="heading">
+                    <h1 >Experience</h1>
+                </div>
                 <div className="bottega">
                     <img src={Bottega} />
                 </div>

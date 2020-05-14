@@ -1,6 +1,17 @@
-#skills{
+#experience{
     display: flex;
     flex-direction: column;
+
+        
+    h1{
+        text-align: center;
+        font-family: $title;
+        font-size: 3rem;
+        color: $purple;
+        letter-spacing: 3px;
+        padding: 50px;
+        padding-top: 100px;
+    }
 
     .bottega{
         text-align: center;

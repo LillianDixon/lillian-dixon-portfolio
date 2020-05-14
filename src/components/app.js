@@ -5,7 +5,7 @@ import About from './pages/about';
 import Projects from './pages/projects';
 import Contact from './pages/contact';
 import Nav from './nav';
-import Skills from "./pages/skills";
+import experience from "./pages/experience";
 
 
 
@@ -22,7 +22,7 @@ export default class App extends Component {
               <Route path="/about" component={About}/>
               <Route path="/projects" component={Projects}/>
               <Route path="/contact" component={Contact}/>
-              <Route path="/skills" component={Skills}/>
+              <Route path="/experience" component={experience}/>
             </Switch>
           </div>
         </Router>
@@ -30,7 +30,7 @@ export default class App extends Component {
         {/* <Home />
         <Projects /> 
         <About />
-        <Skills />
+        <experience />
         <Contact /> */}
 
 

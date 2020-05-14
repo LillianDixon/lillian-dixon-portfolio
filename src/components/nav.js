@@ -28,7 +28,7 @@ export default function(){
                     <a href="/about">About</a>
                 </div>
                 <div className="link">
-                    <a href="/skills">Skills</a>
+                    <a href="/experience">Experience</a>
                 </div>
                 <div className="link">
                     <a href="/contact">Contact</a>
