@@ -8,6 +8,7 @@ import javascript from "../../../static/assets/images/javascript.png";
 import github from "../../../static/assets/images/github.png";
 import react from "../../../static/assets/images/react.png";
 import angular from "../../../static/assets/images/angular.png";
+import DCC from "../../../static/assets/images/DCC-Logo.png"
 
 
 export default class experience extends Component {
@@ -19,6 +20,7 @@ export default class experience extends Component {
                 </div>
                 <div className="bottega">
                     <img src={Bottega} />
+                    <img src={DCC}/>
                 </div>
                 <div className="logos">
                     <img src={HTML} />
@@ -28,7 +30,7 @@ export default class experience extends Component {
                     <img src={javascript} />
                     <img src={react} />
                     <img src={github} />
-                    <img src={angular} />
+                    {/* <img src={angular} /> */}
 
                 </div>
 
