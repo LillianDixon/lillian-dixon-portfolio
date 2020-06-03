@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
     // @import "small-screen.scss";
     .nav-wrapper{
         display: block;
@@ -6,16 +6,16 @@
         .nav-btn{
             display: block;
             padding-top: 30px;
-            padding-right: 80px;
-            float: right;
+            padding-left: 80px;
+            float: left;
 
             label{
                 cursor: pointer;
-                color: $darkKhaki;
+                color: $purple;
                 
                 &:hover{
-                    text-decoration: underline $darkSlateGray;
-                    color: $darkSlateGray;
+                    text-decoration: underline $white;
+                    color: $white;
                     transition: 0.5s;
                     }
 
@@ -27,7 +27,7 @@
                 }
             }    
 
-
+            
         }
 
         #toggle{
@@ -39,7 +39,8 @@
             &:checked{
                 
                 &+.nav-right{
-                    display: block;
+                    display: flex;
+                    flex-direction: column;
 
                     
                 }
@@ -50,6 +51,7 @@
         .nav-right{
             display: none;
             background: rgba(2, 2, 2, 0.8);
+            width: 100vw;
         }
     }
 
@@ -57,6 +59,15 @@
         background-attachment: scroll;
         background-position: center;
         width: 100vw;
+
+        .titles{
+            // padding-top: 80px;
+            padding-left: 50px;
+
+            h1{
+                font-size: 5em;
+            }
+        }
     }
     
     #projects{
@@ -111,4 +122,29 @@
         }
     }
     
+}
+
+@media screen and (max-width: 650px){
+    #home{
+        .titles{
+            h1{
+                font-size: 3.5em;
+            }
+
+            h2{
+                font-size: 1.5em;
+            }
+        }
+    }
+
+    #about{
+        .about-text{
+            .photo{
+                img{
+                    width: 250px;
+                }
+            }
+        }
+    }
+
 }

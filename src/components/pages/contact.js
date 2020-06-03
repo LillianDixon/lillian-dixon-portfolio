@@ -52,11 +52,9 @@ export default class Contact extends Component{
         return(
             <div id="contact">
                 <div className="contact-form">
-                    <h1>HIRE ME!</h1>
+                    <h1>CONTACT ME</h1>
                     <form onSubmit={this.handleSubmit}>
                         <div className="form-elements">
-                            <label>
-                                Name:
                                 <input
                                     type="text"
                                     name="name"
@@ -64,11 +62,8 @@ export default class Contact extends Component{
                                     onChange={this.handleChange}
                                     value={this.state.name}
                                 />
-                            </label>
                         </div>
                         <div className="form-elements">
-                            <label>
-                                Email:
                                 <input
                                     type="email"
                                     name="email"
@@ -76,11 +71,8 @@ export default class Contact extends Component{
                                     onChange={this.handleChange}
                                     value={this.state.email}
                                 />
-                            </label>
                         </div>
                         <div className="form-elements">
-                            <label>
-                                Subject:
                                 <input
                                     type="text"
                                     name="subject"
@@ -88,11 +80,8 @@ export default class Contact extends Component{
                                     onChange={this.handleChange}
                                     value={this.state.subject}
                                 />
-                            </label>
                         </div>
                         <div className="form-elements">
-                            <label>
-                                Message:
                                 <textarea
                                     type="text"
                                     name="message"
@@ -100,13 +89,16 @@ export default class Contact extends Component{
                                     onChange={this.handleChange}
                                     value={this.state.message}
                                 />
-                            </label>
                         </div>
                     </form>
                     <button className="btn" type="send" onClick={e => this.handleSubmit(e)} value="Submit">Send</button>
                     <div className="links">
-                        <a href="https://www.linkedin.com/in/lillian-dixon-3a619417b/">linkedin</a>
-                        <a href="https://github.com/LillianDixon">Github</a>
+                        <div className="link">
+                            <a href="https://www.linkedin.com/in/lillian-dixon-3a619417b/">linkedin</a>
+                        </div>
+                        <div className="link">
+                            <a href="https://github.com/LillianDixon">Github</a>
+                        </div>
                     </div>
                     {/* <h1>PLEASE!</h1> */}
                 </div>

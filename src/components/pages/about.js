@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
+import MyPhoto from "../../../static/assets/images/myPhoto.jpg"
+
 let images = [
     // 'https://s2.gifyu.com/images/DancingWees.gif',
     // 'https://s3.amazonaws.com/ldixon-2019/WeeScoots.gif',
 ];
 
-let randomImage = images[Math.floor(Math.random() * images.length)]
+// let randomImage = images[Math.floor(Math.random() * images.length)]
 
 export default class About extends Component {
     render() {
@@ -14,6 +16,9 @@ export default class About extends Component {
                 <div className="about-text">
                     <div className="heading">
                         <h1>About Me</h1>
+                    </div>
+                    <div className='photo'>
+                        <img src={MyPhoto} />
                     </div>
                     <p>By day I am a Web Developer. By night... I sleep, it's one of my favorite things. I have many varied interest among which are: musical theater, opera, watercolor, knitting, baking, reading everything I can get my hands on, and the occasional Irish step dance. I love learning new things and meeting new people.</p>
                 </div>

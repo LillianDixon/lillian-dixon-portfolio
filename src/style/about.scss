@@ -1,6 +1,6 @@
 #about{
     .heading{
-        background-image: url('../../static/assets/images/mandoChalk.jpg');
+        // background-image: url('../../static/assets/images/smallmando.jpg');
         // height: 305px;
     }
 
@@ -20,6 +20,16 @@
             padding-top: 100px;
         }
 
+        .photo{
+            padding-top: 50px;
+
+            img{
+                width: 500px;
+                border-radius: 300px;
+                border: 5px solid $purple;
+            }
+        }
+
         p{
             display: grid;
             // grid-template-areas: ".  p  .";
@@ -28,7 +38,7 @@
             margin-right: 0;
             font-family: $text;
             color: $purple;
-            padding: 0px 200px 10px 200px;
+            padding: 0px 200px 20px 200px;
         }
     }
 }
