@@ -20,7 +20,11 @@ export default class About extends Component {
                     <div className='photo'>
                         <img src={MyPhoto} />
                     </div>
-                    <p>By day I am a Web Developer. By night... I sleep, it's one of my favorite things. I have many varied interest among which are: musical theater, opera, watercolor, knitting, baking, reading everything I can get my hands on, and the occasional Irish step dance. I love learning new things and meeting new people.</p>
+                    <p>I am currently working as the computer coding instructor for the coding program at Dawson Community College. I teach full-stack web development and I probably learn just as much as the students, every day I am trying to improve myself and learn more.</p>
+
+                    <p>I come from a very large family and was taught at an early age to work hard. I am a person who keeps busy and always has several projects going on. I get along with almost everyone and make friends easily.</p>
+
+                    <p>I can make the best sourdough bread you've ever had and can sing an opera aria that will make you cry (you'll have to find out if it's from how good or bad I am). I love a good pun and can quote Disney movies all day. I've never met an ice cream flavor I didn't like. </p>
                 </div>
             </div>
         )
