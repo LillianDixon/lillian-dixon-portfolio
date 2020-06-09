@@ -1,7 +1,5 @@
 #about{
     .heading{
-        // background-image: url('../../static/assets/images/smallmando.jpg');
-        // height: 305px;
     }
 
     .about-text{
@@ -32,9 +30,6 @@
 
         p{
             display: grid;
-            // grid-template-areas: ".  p  .";
-            // grid-template-columns: 1fr 1fr 1fr;
-            // grid-column: 2 / 4;
             margin-right: 0;
             font-family: $text;
             color: $darkSlateGray;

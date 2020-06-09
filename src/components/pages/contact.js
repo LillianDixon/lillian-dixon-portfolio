@@ -100,7 +100,6 @@ export default class Contact extends Component{
                             <a href="https://github.com/LillianDixon">Github</a>
                         </div>
                     </div>
-                    {/* <h1>PLEASE!</h1> */}
                 </div>
             </div>
             
