@@ -44,7 +44,7 @@ export default function(){
                 </div>
                 
                 <div className='project-item'>
-                    <a href='hhttps://star-wars-mad-libs-project.herokuapp.com/' >
+                    <a href='https://star-wars-mad-libs-project.herokuapp.com/' >
                         <div className="background-image" style={{backgroundImage: 'url(' + starWarsMadLibs + ')'}}>
                             
                         </div>
