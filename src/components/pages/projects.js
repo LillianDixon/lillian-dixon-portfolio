@@ -3,6 +3,7 @@ import JoanneHallArt from '../../../static/assets/images/joanneHallArt.png';
 import DevFries from '../../../static/assets/images/dev-fries.png';
 import Pong from '../../../static/assets/images/pong.png';
 import BookIndex from '../../../static/assets/images/bookIndex.png';
+import starWarsMadLibs from "../../../static/assets/images/star-wars-mad-libs.png"
 
 export default function(){
     return(
@@ -39,6 +40,21 @@ export default function(){
                             <p>This was a project I built to practice my RESTful API's. It has full CRUD capabilities connecting to a python backend I built.  Go ahead and add your favorite book, I'm always looking for new things to read.</p>
                             
                         <a href="https://www.youtube.com/playlist?list=PLZpl_iok1mPZKE_1UCgtilnY83gCf-Vti">Check out how I made it</a>
+                        </div>
+                </div>
+                
+                <div className='project-item'>
+                    <a href='hhttps://star-wars-mad-libs-project.herokuapp.com/' >
+                        <div className="background-image" style={{backgroundImage: 'url(' + starWarsMadLibs + ')'}}>
+                            
+                        </div>
+                    </a>
+                        <div className="text-wrapper">
+                            <a href="https://star-wars-mad-libs-project.herokuapp.com/">
+                                <h2>Star Wars Mad Libs</h2>
+                            </a>
+                            <p>This was a super fun project build in Reactjs and Scss.  My sister gave me a Star Wars mad-libs book for christmas and we laughed for hours while playing with it, I wanted to recreate it so others could have as much fun with it.</p>
+                            
                         </div>
                 </div>
                     
