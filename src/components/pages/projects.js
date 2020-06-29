@@ -4,6 +4,7 @@ import DevFries from '../../../static/assets/images/dev-fries.png';
 import Pong from '../../../static/assets/images/pong.png';
 import BookIndex from '../../../static/assets/images/bookIndex.png';
 import starWarsMadLibs from "../../../static/assets/images/star-wars-mad-libs.png"
+import reactExersises from "../../../static/assets/images/reactExersises.png"
 
 export default function(){
     return(
@@ -54,6 +55,8 @@ export default function(){
                                 <h2>Star Wars Mad Libs</h2>
                             </a>
                             <p>This was a super fun project build in Reactjs and Scss.  My sister gave me a Star Wars mad-libs book for christmas and we laughed for hours while playing with it, I wanted to recreate it so others could have as much fun with it.</p>
+
+                            <a href="https://github.com/LillianDixon/mad-libs-project">Check out the code</a>
                             
                         </div>
                 </div>
@@ -69,6 +72,23 @@ export default function(){
                                 <h2>DevCamp Fries</h2>
                             </a>
                             <p>A group collaboration of a mock-up restaurant.  This site was created in HTML and CSS implementing experience such as Flexbox and Grid.</p>
+
+                            <a href="https://github.com/LillianDixon/dev-fries">Check out the code</a>
+                        </div>
+                </div>
+
+                <div className='project-item'>
+                    <a href='https://codesandbox.io/s/lpw7w8v80m?file=/src/index.js' >
+                        <div className="background-image" style={{backgroundImage: 'url(' + reactExersises + ')'}}>
+                            
+                        </div>
+                    </a>
+                        <div className="text-wrapper">
+                            <a href="https://codesandbox.io/s/lpw7w8v80m?file=/src/index.js">
+                                <h2>React Exersises</h2>
+                            </a>
+                            <p>I built this project while learing react. I found a list of simple projects to build to help learn react and built them for myself. Take a look, they are my really cool react exersises!</p>
+
                         </div>
                 </div>
 
