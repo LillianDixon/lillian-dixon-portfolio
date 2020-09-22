@@ -5,6 +5,7 @@ import Pong from '../../../static/assets/images/pong.png';
 import BookIndex from '../../../static/assets/images/bookIndex.png';
 import starWarsMadLibs from "../../../static/assets/images/star-wars-mad-libs.png"
 import reactExersises from "../../../static/assets/images/reactExersises.png"
+import AmazonClone from "../../../static/assets/images/amazon-clone.jpg"
 
 export default function(){
     return(
@@ -13,6 +14,23 @@ export default function(){
                 <h1 >Projects</h1>
             </div>
             <div className="project-items">
+
+                
+            <div className='project-item'>
+                    <a href='https://clone-de5d1.web.app/' >
+                        <div className="background-image" style={{backgroundImage: 'url(' + AmazonClone + ')'}}>
+                            
+                        </div>
+                    </a>
+                        <div className="text-wrapper">
+                            <a href="https://clone-de5d1.web.app/">
+                                <h2>Amazon Clone</h2>
+                            </a>
+                            <p>My current project is an Amazon clone.  It is built with React.js CSS and has a Firebase backend.  Currently It has full login/sign in functionality. Go ahead and check it out!</p>
+                        
+                            <a href="https://github.com/LillianDixon/amazon-clone">Check out the code</a>
+                        </div>
+                </div>
 
                 {/* <div className='project-item'> */}
                 {/* <a href='https://joanne-hall-art.herokuapp.com/' > */}
